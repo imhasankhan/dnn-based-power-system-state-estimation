@@ -52,3 +52,20 @@ publication, which validates the methodology and results through peer review.
 **Focus:** Robust DNN-based state estimation under realistic measurement noise
 
 The paper PDF is included in this repository for reference.
+
+## Project Workflow
+
+The overall workflow of the project is shown below and follows a structured
+engineering pipeline:
+
+1. Load-flow simulations performed in MATLAB on the IEEE 14-bus system
+2. Generation of multiple operating scenarios using P–Q load variations
+3. Injection of multi-level Gaussian measurement noise to model realistic sensors
+4. Data preprocessing and scaling
+5. Training of a Deep Neural Network for state estimation
+6. Evaluation of voltage magnitude and angle prediction performance
+
+![Project workflow](figures/workflow.png)
+![IEEE 14-bus system](figures/ieee14_bus_system.png)
+![DNN architecture](figures/dnn_architecture.png)
+
